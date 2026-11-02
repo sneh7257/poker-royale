@@ -1,0 +1,24 @@
+Production HTTP integration run: 2026-11-02
+Target: public POKER ROYALE ULTIMATE HTTPS deployment, release v8
+Result: 20 passed, 0 failed; process exit code 0
+
+PASS three independent players and a spectator share a persistent room
+PASS private table excluded from public browser
+PASS duplicate concurrent action applied exactly once
+PASS independent clients receive the same board, hand, turn, and chip balances
+PASS each player receives only their own private cards
+PASS spectator receives no hole cards or undealt deck
+PASS unauthenticated state access rejected
+PASS out-of-turn action rejected
+PASS spectator cannot act
+PASS refresh recovery restores the original seat and private cards
+PASS host pause synchronized to another player
+PASS non-host cannot resume a private tournament
+PASS chat crosses independent sessions
+PASS server timeout advances while the host client is disconnected
+PASS complete tournament produces one champion and conserves chips
+PASS statistics derived on server from completed tournament
+PASS host bot proposal waits for a human majority vote
+PASS spectator cannot vote on adding bots
+PASS human majority adds the approved number of bots
+PASS bot takes its turn on the server and its private cards remain hidden

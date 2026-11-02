@@ -1,0 +1,30 @@
+✔ all nine hand categories and wheel (2.963751ms)
+✔ seven-card evaluator chooses best five and kickers break ties (0.896129ms)
+✔ secure shuffle produces all 52 unique cards (7.053196ms)
+✔ blind positions and preflop order for three players (0.86985ms)
+✔ heads-up dealer is small blind and acts first before flop, last after (0.310928ms)
+✔ out-of-turn, invalid check, fractional and undersized raises rejected (0.516948ms)
+✔ short all-in does not reopen raising for a previous caller (0.361384ms)
+✔ side pots account for folded contributions and multiple all-ins (0.456577ms)
+✔ split pot odd chip goes first clockwise from dealer (14.002215ms)
+✔ distinct main and side pot winners with elimination (0.999734ms)
+✔ full all-in runout conserves chips and finds champion (0.752182ms)
+✔ deadline is server-enforced and timeout folds without host (0.441043ms)
+✔ private views never contain deck, opponent cards or folded showdown cards (0.81082ms)
+✔ host pause blocks actions and expires after two minutes (0.332971ms)
+✔ random legal tournaments preserve chips, terminate, and rotate dealer (12.112921ms)
+✔ uncalled excess is returned before side-pot distribution (0.423438ms)
+✔ full raise reopens betting and cumulative short raises reopen correctly (0.213862ms)
+✔ dealer rotates and blinds escalate between hands (1.063841ms)
+✔ forged chip balances in action payload cannot change the pure engine (0.365369ms)
+✔ solo host bot vote passes and fills only the requested number of seats (0.840635ms)
+✔ bot proposals require host, open seats and a human majority vote (0.325881ms)
+✔ bots act only on their own server-side turn and never expose their cards (0.768107ms)
+ℹ tests 22
+ℹ suites 0
+ℹ pass 22
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 177.059415

@@ -1,0 +1,10 @@
+Verified 2,598,960 distinct hands: 1302540, 1098240, 123552, 54912, 10200, 5108, 3744, 624, 40
+✔ all five-card category frequencies match exact combinatorial totals (2221.107227ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 1
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2346.006605
