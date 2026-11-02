@@ -22,7 +22,7 @@ Most recent production run on 2026-11-02 against release v8: **20 passed, 0 fail
 
 ## Browser checks
 
-On 2026-10-29, production v4 was exercised with two separate guest identities in two browser tabs. The second player joined by room code, both clients showed the same hand, board, pot, turn and chip totals, each client saw only its own hole cards, and each player's call/check appeared in the other player's view within the polling interval. Refreshing both clients restored their identities, seats, private cards and current table state.
+On 2026-11-02, production v9 was exercised in two browser tabs using distinct anonymous sessions. The second player joined by room code; both clients showed the same hand, board, pot, turn, chip totals, and champion result. Each tab showed its own two private cards. The players completed a tournament through the browser controls. A prior 2026-10-29 check on v4 also confirmed refresh recovery for both seats.
 
 ## Transport and background work
 

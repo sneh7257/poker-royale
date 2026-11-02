@@ -23,4 +23,4 @@ This audit describes the current public release and separates implemented behavi
 
 ## Verification status
 
-Engine tests exhaustively compare five-card category frequencies and cover poker transitions, tournament outcomes, voting, and private views. The HTTP integration suite uses independent anonymous credentials against a deployment to check synchronization, authorization, privacy, reconnection, host disconnection, bot voting, and a full tournament. A previous manual two-browser check also confirmed synchronized state and per-player private cards. See [`TESTING.md`](TESTING.md) for the latest run details.
+Engine tests exhaustively compare five-card category frequencies and cover poker transitions, tournament outcomes, voting, and private views. The HTTP integration suite uses independent anonymous credentials against a deployment to check synchronization, authorization, privacy, reconnection, host disconnection, bot voting, and a full tournament. A 2026-11-02 two-tab production run with distinct guest sessions also completed a tournament and confirmed synchronized play and separate private cards. See [`TESTING.md`](TESTING.md) for the latest run details.
